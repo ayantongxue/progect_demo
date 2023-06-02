@@ -11,7 +11,6 @@ $(function () {
     getCommentList()
 
 })
-
 function postCommentList(data){
     $.ajax({
         type: 'post',
